@@ -15,6 +15,7 @@ SASIE is a customisable overlay application for the SAS Turnout Dashboard that p
 - 🎨 Clean, non-intrusive overlay design
 - 🌐 Location-based weather data
 - 🚀 Cross-platform support (Windows, macOS, Linux)
+- 📅 Local events feed
 
 ## Weather
 
@@ -39,7 +40,7 @@ The source code is currently private, but can be provided upon request if you wi
 
 ### Downloading Pre-built Binaries
 
-Pre-built binaries are available on the [GitHub Releases](https://github.com/YourUsername/sas-dashboard/releases) page. Each release includes:
+Pre-built binaries are available on the [GitHub Releases](https://github.com/firehouselabs/sasie.github.io/releases) page or using the links to the left. Each release includes:
 
 - **Windows**: Portable executable (.exe)
 - **macOS**: DMG installer (.dmg)
