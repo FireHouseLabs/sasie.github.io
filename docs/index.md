@@ -2,122 +2,73 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# SASIE - The SAS Interface Extension
 
-[Link to another page](./another-page.html).
+SASIE is a customisable overlay application for the SAS Turnout Dashboard that provides real-time weather information, date, time and custom events display.
 
-There should be whitespace between paragraphs.
+## Features
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+- 🌤️ Real-time weather information display
+- 🕒 Live updating clock and date
+- ⚙️ Configurable settings interface
+- 🖥️ Seamless integration with SAS Dashboard
+- 🎨 Clean, non-intrusive overlay design
+- 🌐 Location-based weather data
+- 🚀 Cross-platform support (Windows, macOS, Linux)
 
-# Header 1
+## Weather
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+SASIE uses [OpenWeather](https://openweathermap.org/) to obtain weather data to display on the dashboard, in order for this to work a free API Key is required.
 
-## Header 2
+### Obtaining OpenWeather API Key
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+1. Sign up for a free account at [OpenWeather](https://openweathermap.org/api)
+2. After signing in, go to your [API keys](https://home.openweathermap.org/api_keys) page
+3. Copy your API key (or generate a new one)
+4. In the application settings, paste your API key in the "Weather API Key" field
 
-### Header 3
+Note: The free tier has a limit of 60 calls/minute, which is more than sufficient for this application.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## Usage
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+### For Developers
 
-#### Header 4
+SASIE is a simple ElectronJS app.
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+The source code is currently private, but can be provided upon request if you wish to extend the application and/or add additional features specific to your requirements.
 
-##### Header 5
+### Downloading Pre-built Binaries
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+Pre-built binaries are available on the [GitHub Releases](https://github.com/YourUsername/sas-dashboard/releases) page. Each release includes:
 
-###### Header 6
+- **Windows**: Portable executable (.exe)
+- **macOS**: DMG installer (.dmg)
+- **Linux**: AppImage (.AppImage)
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+#### Installation Instructions
 
-### There's a horizontal rule below this.
+- **Windows**:
+  1. Download the .exe file
+  2. The application is portable - no installation needed
+  3. Double-click to run
 
-* * *
+- **macOS**:
+  1. Download the .dmg file
+  2. Double-click to mount the disk image
+  3. Drag the application to your Applications folder
+  4. Right-click and select "Open" for first launch (required for unsigned applications)
 
-### Here is an unordered list:
+- **Linux**:
+  1. Download the .AppImage file
+  2. Make it executable: `chmod +x SAS.Dashboard.Overlay-*.AppImage`
+  3. Double-click to run or execute from terminal
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+## Configuration
 
-### And an ordered list:
+The application uses a settings interface that can be accessed via the overlay's Settings button. Configure:
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+- SAS Login Credentials
+- Weather location
+- API keys
+- Display preferences
+- Event Information
