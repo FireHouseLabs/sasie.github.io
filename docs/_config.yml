@@ -3,3 +3,10 @@ logo: /assets/img/logo.png
 description: SASIE is the Supplementary Alerting System Interface Extension.
 show_downloads: true
 theme: jekyll-theme-minimal
+
+# Latest release download URLs (updated automatically by GitHub Action)
+latest_release:
+  windows_url: ""
+  mac_url: ""
+  linux_url: ""
+  version: ""
