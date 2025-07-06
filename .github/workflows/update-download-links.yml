@@ -3,6 +3,7 @@ name: Update Download Links
 on:
   release:
     types: [published]
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   update-links:
