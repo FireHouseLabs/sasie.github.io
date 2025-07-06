@@ -4,9 +4,9 @@ description: SASIE is the Supplementary Alerting System Interface Extension.
 show_downloads: true
 theme: jekyll-theme-minimal
 
-# Latest release download URLs (updated automatically by GitHub Action)
+# Latest release download URLs
 latest_release:
-  windows_url: ""
-  mac_url: ""
-  linux_url: ""
-  version: ""
+  windows_url: https://github.com/FireHouseLabs/sasie.github.io/releases/download/v1.0.0/SAS.Dashboard.Overlay-1.0.0-win-x64.exe
+  mac_url: https://github.com/FireHouseLabs/sasie.github.io/releases/download/v1.0.0/SAS.Dashboard.Overlay-1.0.0-mac-arm64.dmg
+  linux_url: https://github.com/FireHouseLabs/sasie.github.io/releases/download/v1.0.0/SAS.Dashboard.Overlay-1.0.0-linux-x86_64.AppImage
+  version: v1.0.0
